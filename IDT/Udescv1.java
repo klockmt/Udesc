@@ -17,13 +17,20 @@ public class Udescv1 {
                 int opcao = s.nextInt();
 
             int res = 0;
-            if (opcao == 1)
-                res = (v1 + v2);
-            else
-                res = v1 * v2;
+            if(opcao == 1 || opcao == 2){
+
+            if (opcao == 1) {
+                res = v1 + v2;
+            }
+            if (opcao == 2) {
+                res = v1 * v2; 
+            }
+            System.out.println("O resultado é:" + res);
+            
+        } else 
         
 
-        System.out.println("O resultado é:" + res);
+        System.out.println("Erro");
         
         s.close();
     }
