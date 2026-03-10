@@ -49,31 +49,13 @@ public class Udescv1 {
 
                 System.out.println("O resultado é:" + res);
 
-                } else {
+                    } else {
                     System.out.println("Você cometeu um erro");
                 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
              } else {
                     System.out.println("Modo não identificado");
                 }
-
-
 
         s.close();
     }
