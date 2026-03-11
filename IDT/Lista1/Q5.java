@@ -50,7 +50,7 @@ public class Q5 {
         
         int res = pr + sb + dk;
 
-        System.out.print("Refeição totalizando " + res + " kcal");
+        System.out.print("\nRefeição totalizando " + res + " kcal");
 
         s.close();
     }
