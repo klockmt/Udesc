@@ -35,6 +35,5 @@ public class Q1 {
                             ava = "Seu valor é indivisível";
 
                             System.out.println(ava);
-
     s.close();
 }}
