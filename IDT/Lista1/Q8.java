@@ -43,6 +43,7 @@ public class Q8 {
                 }
             }
             System.out.print(res + media);
+            s.close();
         }
     }
 }
