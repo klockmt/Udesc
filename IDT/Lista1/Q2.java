@@ -30,4 +30,5 @@ public class Q2 {
                 res = "Obesidade Mórbida";
             }
             System.out.println(res);
+            s.close();
 }}
