@@ -20,9 +20,9 @@ public class Q6 {
         double calc = (v1 * v1) + (v2 * v2) - (v3 * v3);
 
         if (calc == 0) {
-            System.out.println("Você tem um triângulo retângulo");
+            System.out.println("Você tem um triângulo retângulo\n");
         } else 
-            System.out.println("Não é um triângulo retângulo");
+            System.out.println("Não é um triângulo retângulo\n");
 
         if (v1 == 0) {
             break;
