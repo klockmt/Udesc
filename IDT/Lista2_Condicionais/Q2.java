@@ -1,4 +1,4 @@
-package Lista2;
+package Lista2_Condicionais;
 import java.util.Scanner;
 
 public class Q2 {
@@ -6,8 +6,7 @@ public class Q2 {
     public static void main(String[] args) {
         
         Scanner s = new Scanner(System.in);
-        boolean b = true;
-        while (b = true) {
+        while (true) {
             System.out.print("Digite sua idade: ");
             int idade = s.nextInt();
 
@@ -141,8 +140,9 @@ public class Q2 {
                             break;
                     }
                     System.out.println(dezena + " e " + unidade);
-                }
+           s.close();
+        }
         } 
-        s.close();
+       
     }
 }
