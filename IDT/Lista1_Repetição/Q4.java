@@ -29,6 +29,7 @@ public class Q4 {
                     break;
                 }
             }
+            i--;
             float maior = numeros.get(0);
             float menor = numeros.get(0);
             for (Float natual : numeros) {
