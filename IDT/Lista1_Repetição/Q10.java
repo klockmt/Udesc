@@ -30,7 +30,7 @@ public class Q10 {
         int vgi = 0;
         int vga = 0;
 
-        for (i = 1; i <= 5; i++) {
+        for (i = 1; i <= 30; i++) {
             System.out.println("Seleção de Candidato " + i);
             //reside na cidade
             System.out.println("Reside na cidade há pelo menos 1 ano? Sim[1] Não");

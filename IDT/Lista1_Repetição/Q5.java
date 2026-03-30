@@ -27,11 +27,14 @@ public class Q5 {
                     break;
                 }
             
-                for (int d = 2; d <= valor; d++) {
-                    if (valor % d == 1) {
+                for (int d = 2; d <= Math.sqrt(valor); d++) {
+                    if (valor == 2 || valor == 3) {
+                        valoresp++;
+                    } else
+                       if (valor % d == 1) {
                         valoresp++;
                         break;
-                    }
+                    } 
                 }
             }
          System.out.println("Essa é a quantidade números que são primos: " + valoresp);
