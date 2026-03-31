@@ -15,6 +15,5 @@ public class Q3 {
         for (long i = 1; i <= x; i++) {
         System.out.println(i + " * " + base + " = " + i*base);
         } s.close();
-        
     }
 }
