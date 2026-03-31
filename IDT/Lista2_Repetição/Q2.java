@@ -1,82 +1,78 @@
 package Lista2_Repetição;
 
-//Elabore um programa que leia 5 valores inteiros positivos e ao final responda quantos destes valores são números primos.
-/*     2. VAMOS REFATORAR O EXERCÍCIO 5 DA LISTA 1. A ADIÇÃO É A SEGUINTE: o programa deve ler 10 números ao invés de apenas 5.
- Então ao final o programa deve ser capaz de dizer:
-a) o somatório dos números não primos informados
-b) o somatório dos números primos informados
-c) dentre os números primos, o maior
-d) dentre os números não primos, o menor*/
-
 import java.util.Scanner;
 
 public class Q2 {
-     public static void main(String[] args) {
-        
+    public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-
-        boolean b = true;
-        int valoresp = 0;
-        float soma = 0;
-        float somap = 0;
-        float maior = 0;
-        float menor = 0;
         
-        while( b == true ){
-            for (int i = 1; i <= 5; i++) { //lembrar de mudar i
-
-                System.out.println("\nDigite o valor " + i + " só aceito positivos e inteiros!");
-                float valor = s.nextFloat();
-
-                if (valor < 0 || valor % 1 != 0) {
-                    b = false;
-                    break;
-                }
-
-                if (b == false) {
-                    break;
-                }
-
-            //acima quebra de loop
-
-                if (valor == 1) {
-                        soma = soma + valor;
-                        menor = valor;
-                }
-                for (int d = 2; d <= valor; d++) {
-                        if (valor == 2) {
-                            valoresp++;
-                            somap = somap + valor; 
-                            if (valor > maior) {
-                            maior = valor;
-                        }
-                            break;
-                        } else
-                            if (valor % d == 0) {
-                        soma = soma + valor; 
-                        if (menor == 0 || valor < menor) {
-                            menor = valor;
-                        }
-                        break;
+        int somaNaoPrimos = 0;
+        int somaPrimos = 0;
+        int maiorPrimo = -1;
+        int menorNaoPrimo = Integer.MAX_VALUE; //maior valor possivel
+        boolean temPrimo = false;
+        boolean temNaoPrimo = false;
+        
+        int i = 1;
+        
+        while (i <= 10) {
+            System.out.println("\nDigite o valor " + i + " (só aceito positivos e inteiros!):");
+            
+            if (s.hasNextInt()) {
+                int valor = s.nextInt();
+                
+                if (valor > 0) {
+                    boolean primo = true;
+                    
+                    if (valor == 1) {
+                        primo = false;
                     } else {
-                        valoresp++;
-                        somap = somap + valor; 
-                        if (valor > maior) {
-                            maior = valor;
+                        for (int d = 2; d * d <= valor; d++) {
+                            if (valor % d == 0) {
+                                primo = false;
+                                break;
+                            }
                         }
-                        break;
                     }
+                    
+                    if (primo) {
+                        somaPrimos += valor;
+                        if (!temPrimo || valor > maiorPrimo) {
+                            maiorPrimo = valor;
+                            temPrimo = true;
+                        }
+                    } else {
+                        somaNaoPrimos += valor;
+                        if (!temNaoPrimo || valor < menorNaoPrimo) {
+                            menorNaoPrimo = valor;
+                            temNaoPrimo = true;
+                        }
+                    }
+                    i++;
+                } else {
+                    System.out.println("Valor inválido! Digite um número positivo.");
                 }
+            } else {
+                System.out.println("Valor inválido! Digite um número inteiro.");
+                s.next(); 
             }
-
-         System.out.println("Essa é a quantidade números que são primos: " + valoresp);
-         System.out.println("Essa é a soma dos números que não são primos: " + soma);
-         System.out.println("Essa é a soma dos números que são primos: " + somap);
-         System.out.println("Esse é o maior número primo: " + maior);
-         System.out.println("Esse é o menor número não primo: " + menor);
-
         }
-        s.close();       
+        
+        System.out.println("\na) O somatório dos números não primos informados: " + somaNaoPrimos);
+        System.out.println("b) O somatório dos números primos informados: " + somaPrimos);
+        
+        if (temPrimo) {
+            System.out.println("c) Dentre os números primos, o maior: " + maiorPrimo);
+        } else {
+            System.out.println("c) Dentre os números primos, o maior: Nenhum primo foi informado.");
+        }
+        
+        if (temNaoPrimo) {
+            System.out.println("d) Dentre os números não primos, o menor: " + menorNaoPrimo);
+        } else {
+            System.out.println("d) Dentre os números não primos, o menor: Nenhum não primo foi informado.");
+        }
+        
+        s.close();
     }
 }
-
