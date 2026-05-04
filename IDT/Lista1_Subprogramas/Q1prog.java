@@ -11,17 +11,15 @@ public class Q1prog {
         System.out.println("Qual o raio?");
         float raio = s.nextFloat();
 
-        float resultadu = volume(raio); 
+        double resultadu = volume(raio); 
 
         System.out.println(resultadu);
-
+        s.close();
     }
 
-    public static float volume(float raio) {
-        float resultado = 4f/3f*3.14f*(raio*raio*raio);
+    public static double volume(float raio) {
+        double resultado = 4d/3d*Math.PI*Math.pow(raio, 3);
         return resultado;
     }
-
-
 
 }
