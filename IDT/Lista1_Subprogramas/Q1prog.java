@@ -22,4 +22,4 @@ public class Q1prog {
         return resultado;
     }
 
-}
+}   
