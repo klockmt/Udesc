@@ -8,7 +8,8 @@ public class Q3prog {
     public static void main(String[] args) {
             Scanner s = new Scanner(System.in);
 
-            while (true) {
+            boolean b = true;
+            while (b == true) {
                 
         System.out.println("Qual o valor? ");
         int n = s.nextInt();
@@ -17,14 +18,14 @@ public class Q3prog {
 
         System.out.println("Resultado = " + resultado);
 
-    }
+    } s.close();
 }
     public static String processo(int n){
 
         boolean b = false;
         int i = 2;
 
-        if (n == 1) {
+        if (n <= 1) {
             return "F";
         }else
         if (n == 2) {
