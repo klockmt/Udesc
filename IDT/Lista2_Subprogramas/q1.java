@@ -31,7 +31,7 @@ public class q1 {
             switch (esc) {
                 case 1:
                     System.out.println("Qual o comprimento da aresta?");
-                    double aresta = s.nextInt();
+                    double aresta = s.nextDouble();
 
                     resultado = calccubo(aresta);
                     break;
