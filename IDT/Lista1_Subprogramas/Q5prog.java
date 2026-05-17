@@ -9,23 +9,20 @@ public class Q5prog {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
-        while (true) {
-            System.out.println("Qual o tempo da fabrica em segundos?");
-            int processo = s.nextInt();
+        System.out.println("Qual o tempo da fabrica em segundos?");
+        int processo = s.nextInt();
 
-            String resultado = calculo(processo);
+        String resultado = calculo(processo);
 
-            System.out.println(resultado);
-            
-        }
-
-    }
+        System.out.println(resultado);
+        s.close();
+    } 
 
     public static String calculo(int processo) {
 
-        int horas = processo / 3600;
-        int minutos = processo % 3600 / 60;
-        int segundos = processo % 3600 % 60;
+        int horas = processo/3600;
+        int minutos = processo%3600/60;
+        int segundos = processo%3600%60;
 
         return "Horas: " + horas + "\nMinutos: " + minutos + "\nSegundos: " + segundos;
     }
