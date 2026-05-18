@@ -20,40 +20,39 @@ public class q2 {
             System.out.println("Qual o valor?");
             int n = s.nextInt();
 
-            String resultado = calculo(n);
+            boolean resultado = calculo(n);
 
-            if (resultado == "é") {
+            if (resultado == true) {
 
-                System.out.println("O numero " + resultado + " perfeito");
+                System.out.println("O numero é perfeito");
                 System.out.println("Esses são os divisores:");
                 System.out.println(lista);
 
-            } else
-
+            } else {
                 System.out.println("O numero não é perfeito");
-
+            }
+            lista = "";
         }
         s.close();
     }
 
-    public static String calculo(int n) {
+    public static boolean calculo(int n) {
+
+        int divisores = 0;
 
         if ((double) n % 2 > 0) {
-            return null;
+            return false;
+        } else {
+            for (int i = n / 2; i > 0; i--) {
+                if (n % i == 0) {
+                    lista = " " + i + lista;
+                    divisores += i;
+                }
+            }
+            if (divisores == n) {
+                return true;
+            }
         }
-
-        int i = n / 2;
-        lista = i + "";
-        i--;
-        
-        while (i > 0) {
-            
-
-
-
-
-
-        }
-        return null;
+        return false;
     }
 }
