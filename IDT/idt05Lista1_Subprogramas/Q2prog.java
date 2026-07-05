@@ -1,4 +1,4 @@
-package Lista1_Subprogramas;
+package idt05Lista1_Subprogramas;
 
 import java.util.Scanner;
 

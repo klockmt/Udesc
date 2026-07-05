@@ -1,4 +1,5 @@
-package Lista2_Repetição;
+package idt04Lista2_Repetição;
+
 
 /* VAMOS REFATORAR O EXERCÍCIO 3 DA LISTA 1.
  A ADIÇÃO É A SEGUINTE: todo valor no intervalo entre 5 .. 50 deve ser testado,

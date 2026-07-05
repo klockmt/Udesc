@@ -1,4 +1,4 @@
-package Lista1_Repetição;
+package idt03Lista1_Repetição;
 
 //Elabore um programa que leia 5 valores inteiros positivos e ao final responda quantos destes valores são números primos.
 

@@ -1,3 +1,5 @@
+package idt01Lista1_Condicionais;
+
 import java.util.Scanner;
 import java.util.ArrayList;
 

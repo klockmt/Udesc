@@ -1,4 +1,4 @@
-package Lista2_Repetição;
+package idt04Lista2_Repetição;
 
 import java.util.Scanner;
 

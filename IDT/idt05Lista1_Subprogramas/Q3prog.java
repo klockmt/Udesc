@@ -1,4 +1,4 @@
-package Lista1_Subprogramas;
+package idt05Lista1_Subprogramas;
 
 /*Faça uma função que recebe por parâmetro um valor inteiro e positivo e retorna o valor lógico V caso o valor seja primo e F em caso contrário.  */
 
