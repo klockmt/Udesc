@@ -18,6 +18,13 @@ public class q1 {
             }
         }
         mostrar(matriz);
+
+        menor(matriz);
+        maior(matriz);
+
+        System.out.println("\nMaior = " + maior(matriz));
+        System.out.println("Menor = " + menor(matriz));
+
         s.close();
 
     }
@@ -38,6 +45,29 @@ public class q1 {
 
             }
         }
+    }
+
+    public static int menor(int[][] matriz) {
+        int menor = matriz[0][0];
+        for (int col = 0; col < 5; col++) {
+            for (int lin = 0; lin < 5; lin++) {
+                if(matriz[col][lin] < menor) {
+                    menor = matriz[col][lin];
+                }
+            }
+        }
+        return menor;
+    }
+    public static int maior(int[][] matriz) {
+        int maior = matriz[0][0];
+        for (int col = 0; col < 5; col++) {
+            for (int lin = 0; lin < 5; lin++) {
+                if(matriz[col][lin] > maior) {
+                    maior = matriz[col][lin];
+                }
+            }
+        }
+        return maior;
     }
 
 }
