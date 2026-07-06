@@ -1,5 +1,9 @@
 package idt09Lista1_Matrizes;
 
+/*1.	Elabore um programa que declare uma matriz de valores inteiros, cujas dimensões são 5 linhas e 5 colunas (matriz[5x5]).
+ Este programa deverá encontrar o maior e o menor valores contidos na matriz e escrever.
+ */
+
 import java.util.Scanner;
 
 public class q1 {
