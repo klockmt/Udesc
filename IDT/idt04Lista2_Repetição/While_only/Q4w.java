@@ -1,4 +1,4 @@
-package idt04Lista2_Repetição.While-only;
+package idt04Lista2_Repetição.While_only;
 
 /* Uma universidade deseja fazer um levantamento a respeito do seu concurso vestibular. 
 Para cada curso, é fornecido o seguinte conjunto de valores: o código do curso, o número de vagas, 
