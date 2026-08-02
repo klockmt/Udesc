@@ -25,9 +25,6 @@ public class q2 {
             int n = s.nextInt();
 
             if (n <= 0) {
-public class q2 {
-    
-}
                 continuar = false;
                 break;
             }
