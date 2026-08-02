@@ -48,7 +48,7 @@ public class q2 {
             System.out.println();
             for (int lin = 0; lin < 5; lin++) {
                 System.out.print(matriz[col][lin] + " ");
-
+                System.out.println("");
             }
         }
     }
