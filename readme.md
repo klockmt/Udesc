@@ -22,7 +22,7 @@
 
 ### IDT — Introdução ao Desenvolvimento de Software e Testes
 
-| # | Questão | Link |
+| Lista | Ramo | Link |
 |---|---------|------|
 | 01 | Modelo Cascata vs Ágil | [PDF](./fase1/idt/questao-01.pdf) |
 | 02 | Ciclo de vida de software | [PDF](./fase1/idt/questao-02.pdf) |
@@ -38,7 +38,7 @@
 
 ### POO — Programação Orientada a Objetos
 
-| # | Ramo | Link |
+| Lista | Ramo | Link |
 |---|---------|------|
 | 01 | Teste | [Java](./fase2/poo/questao-01.java) |
 
@@ -78,33 +78,6 @@
 <summary><strong>Fase 8</strong></summary>
 *Disciplinas a serem adicionadas.*
 </details>
-
----
-
-## 📁 Estrutura do repositório
-
-```text
-.
-├── fase1/
-│   ├── idt/
-│   └── logica/
-├── fase2/
-│   ├── poo/
-│   └── bd1/
-├── fase3/
-├── fase4/
-├── fase5/
-├── fase6/
-├── fase7/
-└── fase8/
-```
-
-## 🔧 Como adicionar questões
-
-1. Crie a pasta: `faseN/disciplina/`
-2. Nomeie o arquivo: `questao-NN.ext`
-3. Adicione a linha na tabela correspondente
-4. Se a disciplina não existe, crie a seção `###` sob a fase correta
 
 ---
 
