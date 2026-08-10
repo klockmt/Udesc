@@ -1,4 +1,4 @@
-package idt07Lista1_Vetores;
+package Fase_1.IDT.idt07Lista1_Vetores;
 
 /* 7. Leia dois vetores de inteiros de 20 posições A e B e transfira seus conteúdos para um terceiro vetor C. 
 Este vetor conterá, nas posições de índice par os valores do vetor A e nas posições impares os valores do vetor B. */

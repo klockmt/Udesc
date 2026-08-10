@@ -1,4 +1,4 @@
-package idt02Lista2_Condicionais;
+package Fase_1.IDT.idt02Lista2_Condicionais;
 
 import java.util.Scanner;
 

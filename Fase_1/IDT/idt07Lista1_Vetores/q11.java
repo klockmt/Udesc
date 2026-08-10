@@ -1,4 +1,4 @@
-package idt07Lista1_Vetores;
+package Fase_1.IDT.idt07Lista1_Vetores;
 
 /* 11. Leia um vetor de inteiros de 10 posições de inteiros positivos e verifique se existem valores repetidos. 
 Para cada valor repetido escrever o valor e quantas vezes ele se repete no vetor. */

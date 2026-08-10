@@ -1,4 +1,4 @@
-package idt07Lista1_Vetores;
+package Fase_1.IDT.idt07Lista1_Vetores;
 
 /* 10. Leia dois vetores de 5 posições contendo em cada posição uma letra qualquer do alfabeto. 
 Verifique e escreva se ambos possuem o mesmo conteúdo (mesmas letras, independentemente da ordem). */

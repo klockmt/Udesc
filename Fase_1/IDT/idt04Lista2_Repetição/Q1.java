@@ -1,4 +1,4 @@
-package idt04Lista2_Repetição;
+package Fase_1.IDT.idt04Lista2_Repetição;
 
 
 /* VAMOS REFATORAR O EXERCÍCIO 3 DA LISTA 1.

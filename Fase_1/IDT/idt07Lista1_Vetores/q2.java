@@ -1,4 +1,4 @@
-package idt07Lista1_Vetores;
+package Fase_1.IDT.idt07Lista1_Vetores;
 
 /*2.	Declare um vetor de inteiros de 10 posições e o preencha automaticamente com os 10 primeiros números impares e o imprima.
  */

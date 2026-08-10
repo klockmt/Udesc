@@ -1,4 +1,4 @@
-package EJ;
+package Fase_2.DOO1.EJ;
 
 /*Faça um programa Java que determine o volume V de uma caixa da agua ciliındrica, sendo
 que o raio e a altura devem ser fornecidos(lidos pelo teclado) */

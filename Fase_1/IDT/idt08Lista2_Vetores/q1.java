@@ -1,4 +1,4 @@
-package idt08Lista2_Vetores;
+package Fase_1.IDT.idt08Lista2_Vetores;
 
 /* VAMOS REFATORAR O EXERCÍCIO 2 DA LISTA 1.
 Declare um vetor de inteiros de 10 posições e o preencha automaticamente com os 10 primeiros números ímpares e o escreva. 

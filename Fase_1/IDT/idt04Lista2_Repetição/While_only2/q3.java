@@ -1,4 +1,4 @@
-package idt04Lista2_Repetição.While_only2;
+package Fase_1.IDT.idt04Lista2_Repetição.While_only2;
 
 /* Reescreva o exercício 04 da lista anterior, de modo que o programa, ao final, escreva o seguinte:
 - Quais são os cursos (seu código) que tiveram índice candidato/vaga >= 2,5

@@ -1,4 +1,4 @@
-package EJ;
+package Fase_2.DOO1.EJ;
 
 import java.util.Locale;
 import java.util.Scanner;

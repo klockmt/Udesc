@@ -1,4 +1,4 @@
-package idt09Lista1_Matrizes;
+package Fase_1.IDT.idt09Lista1_Matrizes;
 
 import java.util.Scanner;
 

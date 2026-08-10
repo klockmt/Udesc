@@ -1,4 +1,4 @@
-package idt07Lista1_Vetores;
+package Fase_1.IDT.idt07Lista1_Vetores;
 
 /* 12. Leia um vetor de inteiros de 50 posições e o compacte, ou seja, elimine as posições com valor zero 
 avançando uma posição com os valores subsequentes. Todos os zeros devem ficar nas posições finais. */

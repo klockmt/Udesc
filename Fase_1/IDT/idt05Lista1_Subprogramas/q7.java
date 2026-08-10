@@ -1,4 +1,4 @@
-package idt05Lista1_Subprogramas;
+package Fase_1.IDT.idt05Lista1_Subprogramas;
 
 /* Faça uma função que recebe a idade de um nadador por parâmetro e retorna a categoria desse nadador de acordo com a tabela:
 5 a 7 anos -> Infantil A

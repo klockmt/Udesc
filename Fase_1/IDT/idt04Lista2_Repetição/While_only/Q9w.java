@@ -1,4 +1,4 @@
-package idt04Lista2_Repetição.While_only;
+package Fase_1.IDT.idt04Lista2_Repetição.While_only;
 
 /* A série de FETUCCINE é gerada da seguinte forma: os dois primeiros termos são fornecidos pelo usuário; 
 a partir daí, os termos são gerados com a soma ou subtração dos dois termos anteriores, ou seja:

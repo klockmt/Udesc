@@ -1,4 +1,4 @@
-package idt05Lista1_Subprogramas;
+package Fase_1.IDT.idt05Lista1_Subprogramas;
 
 /* Escreva uma função que recebe 3 valores reais X, Y e Z e verifica se podem ser lados de um triângulo. 
 Caso sim, retorna o tipo de triângulo (Equilátero, Isósceles ou Escaleno). */

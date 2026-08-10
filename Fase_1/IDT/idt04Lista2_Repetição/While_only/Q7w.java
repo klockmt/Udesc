@@ -1,4 +1,4 @@
-package idt04Lista2_Repetição.While_only;
+package Fase_1.IDT.idt04Lista2_Repetição.While_only;
 
 /* Repare a seguinte característica do número 3025: 30 + 25 = 55 e 55**2 = 3025.
 Criar um programa que possa ler vários números inteiros de 4 algarismos, um de cada vez, 

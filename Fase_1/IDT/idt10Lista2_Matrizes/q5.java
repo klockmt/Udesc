@@ -1,4 +1,4 @@
-package idt10Lista2_Matrizes;
+package Fase_1.IDT.idt10Lista2_Matrizes;
 
 /* VAMOS REFATORAR O EXERCÍCIO 5 DA LISTA 1.
 Elabore um programa que declare uma matriz de valores inteiros, cujas dimensões são 5 linhas e 5 colunas matriz[5x5]. 

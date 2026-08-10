@@ -1,4 +1,4 @@
-package idt09Lista1_Matrizes;
+package Fase_1.IDT.idt09Lista1_Matrizes;
 
 /* 4. Elabore um programa que declare uma matriz de valores inteiros, cujas dimensões são 5 linhas e 5 colunas matriz[5x5]. 
 Este programa deverá realizar a contagem dos números primos contidos na matriz. */

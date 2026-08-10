@@ -1,4 +1,4 @@
-package idt04Lista2_Repetição.While_only;
+package Fase_1.IDT.idt04Lista2_Repetição.While_only;
 
 /* Uma das maneiras de se conseguir a raiz quadrada de um número é subtrair do número 
 os ímpares consecutivos a partir de 1, até que o resultado da subtração seja menor ou igual a zero. 

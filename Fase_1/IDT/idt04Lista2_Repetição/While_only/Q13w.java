@@ -1,4 +1,4 @@
-package idt04Lista2_Repetição.While_only;
+package Fase_1.IDT.idt04Lista2_Repetição.While_only;
 
 /* Dado um país A, com 5.000.000 de habitantes e uma taxa de natalidade de 3% ao ano, 
 e um país B com 7.000.000 de habitantes e uma taxa de natalidade de 2% ao ano, 

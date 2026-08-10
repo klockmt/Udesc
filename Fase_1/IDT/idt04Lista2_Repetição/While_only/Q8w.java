@@ -1,4 +1,4 @@
-package idt04Lista2_Repetição.While_only;
+package Fase_1.IDT.idt04Lista2_Repetição.While_only;
 
 /* Escreva um programa que imprime na tela a série de FIBONACCI até um numero dado. 
 Esta série começa com 1 e 1 e os próximos números são obtidos pela soma dos anteriores.

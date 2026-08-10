@@ -1,4 +1,4 @@
-package idt06Lista2_Subprogramas.Lista3;
+package Fase_1.IDT.idt06Lista2_Subprogramas.Lista3;
 
 /* Refatore o código do exercício 4 da Lista2, de modo que o programa, além das funcionalidades originais, responda mais o seguinte:
 - Se houve alguma tentativa do usuário em informar valor inválido para a quantidade de brinquedos (valor negativo ou zero).

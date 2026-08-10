@@ -1,4 +1,4 @@
-package idt05Lista1_Subprogramas;
+package Fase_1.IDT.idt05Lista1_Subprogramas;
 
 /* Faça uma função que recebe, por parâmetro, um valor N e calcula e escreva a tabuada de 1 até N. */
 

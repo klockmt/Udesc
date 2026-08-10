@@ -1,4 +1,4 @@
-package idt07Lista1_Vetores;
+package Fase_1.IDT.idt07Lista1_Vetores;
 
 /* 9. Leia um vetor de 5 posições contendo os algarismos de um numero. Em seguida escreva esse numero por extenso. */
 

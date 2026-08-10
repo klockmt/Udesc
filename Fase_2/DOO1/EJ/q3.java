@@ -1,4 +1,4 @@
-package EJ;
+package Fase_2.DOO1.EJ;
 
 /*Faça um programa Java que lê um valor inteiro positivo N , calcula e imprime o valor de N ! (fatorial de N). */
 

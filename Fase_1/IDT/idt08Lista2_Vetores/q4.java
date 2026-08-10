@@ -1,4 +1,4 @@
-package idt08Lista2_Vetores;
+package Fase_1.IDT.idt08Lista2_Vetores;
 
 /* VAMOS REFATORAR O EXERCÍCIO 7 DA LISTA 1.
 Leia dois vetores de inteiros de 20 posições A e B e transfira seus conteúdos para um terceiro vetor C. 

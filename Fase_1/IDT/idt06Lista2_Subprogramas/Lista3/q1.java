@@ -1,4 +1,4 @@
-package idt06Lista2_Subprogramas.Lista3;
+package Fase_1.IDT.idt06Lista2_Subprogramas.Lista3;
 
 /* Refatore o código do exercício 1 da Lista2, de modo que o programa, além das funcionalidades originais, responda mais o seguinte:
 - Qual a média geral de volumes

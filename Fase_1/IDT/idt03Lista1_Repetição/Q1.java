@@ -1,4 +1,4 @@
-package idt03Lista1_Repetição;
+package Fase_1.IDT.idt03Lista1_Repetição;
 
 import java.util.Scanner;
 

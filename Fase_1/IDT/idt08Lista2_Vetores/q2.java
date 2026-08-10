@@ -1,4 +1,4 @@
-package idt08Lista2_Vetores;
+package Fase_1.IDT.idt08Lista2_Vetores;
 
 /* VAMOS REFATORAR O EXERCÍCIO 3 DA LISTA 1.
 Leia um vetor de inteiros de 16 posições e troque os 8 primeiros valores pelos 8 últimos e vice-e-versa. 

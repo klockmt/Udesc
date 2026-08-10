@@ -1,4 +1,4 @@
-package idt06Lista2_Subprogramas;
+package Fase_1.IDT.idt06Lista2_Subprogramas;
 
 import java.util.Scanner;
 

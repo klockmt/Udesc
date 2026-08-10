@@ -1,4 +1,4 @@
-package idt04Lista2_Repetição.While_only;
+package Fase_1.IDT.idt04Lista2_Repetição.While_only;
 
 /* Escreva um programa que calcule a soma dos números pares entre 25 e 200. */
 

@@ -1,4 +1,4 @@
-package idt03Lista1_Repetição;
+package Fase_1.IDT.idt03Lista1_Repetição;
 
 //Elabore um programa que leia 20 valores inteiros, calcule e escreva o percentual de valores negativos e positivos informados.
 

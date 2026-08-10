@@ -1,4 +1,4 @@
-package idt07Lista1_Vetores;
+package Fase_1.IDT.idt07Lista1_Vetores;
 
 /* 13. Considere um vetor de trajetórias onde cada elemento possui o valor do próximo elemento do vetor a ser lido.
 Índice: 0 1 2 3 4 5 6 7 8 9

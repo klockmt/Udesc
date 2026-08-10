@@ -1,4 +1,4 @@
-package idt08Lista2_Vetores;
+package Fase_1.IDT.idt08Lista2_Vetores;
 
 /* VAMOS REFATORAR O EXERCÍCIO 5 DA LISTA 1.
 Leia um vetor de inteiros de 40 posições. Contar e escrever quantos valores pares ele possui. 

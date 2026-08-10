@@ -1,4 +1,4 @@
-package idt08Lista2_Vetores;
+package Fase_1.IDT.idt08Lista2_Vetores;
 
 /* VAMOS REFATORAR O EXERCÍCIO 10 DA LISTA 1.
 Leia dois vetores de 5 posições contendo em cada posição uma letra qualquer do alfabeto. 

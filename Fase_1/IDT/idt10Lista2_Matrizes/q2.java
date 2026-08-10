@@ -1,4 +1,4 @@
-package idt10Lista2_Matrizes;
+package Fase_1.IDT.idt10Lista2_Matrizes;
 
 /* VAMOS REFATORAR O EXERCÍCIO 2 DA LISTA 1.
 Elabore um programa que declare duas matrizes de valores inteiros, cujas dimensões são 5 linhas e 5 colunas (matrizA[5x5] e matrizB[5x5]). 

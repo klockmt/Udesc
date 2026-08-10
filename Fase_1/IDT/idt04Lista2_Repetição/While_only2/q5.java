@@ -1,4 +1,4 @@
-package idt04Lista2_Repetição.While_only2;
+package Fase_1.IDT.idt04Lista2_Repetição.While_only2;
 
 /* Reescreva o exercício 08 da lista anterior, de modo que o programa, antes de imprimir a série Fibonacci, 
 tenha impresso a raiz quadrada de cada número da série. Para calcular a raiz, utilize a técnica das subtrações sucessivas de ímpares. */

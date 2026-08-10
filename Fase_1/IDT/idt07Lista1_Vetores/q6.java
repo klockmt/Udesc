@@ -1,4 +1,4 @@
-package idt07Lista1_Vetores;
+package Fase_1.IDT.idt07Lista1_Vetores;
 
 /* 6. Leia um vetor de inteiros 10 posições e atribua valor 0 para todos os elementos que possuírem valores negativos. */
 

@@ -1,4 +1,4 @@
-package idt03Lista1_Repetição;
+package Fase_1.IDT.idt03Lista1_Repetição;
 //  3. Elabore um programa que leia 10 valores inteiros e ao final escreva como resultado:
 //    a) a media dos valores positivos lidos
 //    b) quantos valores são menores que zero

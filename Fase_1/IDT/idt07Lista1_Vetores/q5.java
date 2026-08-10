@@ -1,4 +1,4 @@
-package idt07Lista1_Vetores;
+package Fase_1.IDT.idt07Lista1_Vetores;
 
 /* 5. Leia um vetor de inteiros de 10 posições. Contar e escrever quantos valores pares ele possui. */
 

@@ -1,4 +1,4 @@
-package idt04Lista2_Repetição.While_only2;
+package Fase_1.IDT.idt04Lista2_Repetição.While_only2;
 
 /* Reescreva o exercício 13 da lista anterior, de modo que o programa, ao final, escreva o seguinte:
 - Qual a população do país A, ano a ano, até um ano antes do ano da superação da população do país B

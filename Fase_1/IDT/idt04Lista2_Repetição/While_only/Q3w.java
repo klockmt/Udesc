@@ -1,4 +1,4 @@
-package idt04Lista2_Repetição.While_only;
+package Fase_1.IDT.idt04Lista2_Repetição.While_only;
 
 /* 3. Um comerciante deseja fazer o levantamento do lucro das mercadorias que ele comercializa.
 Fazer um programa que determine e escreva quantas mercadorias proporcionam:

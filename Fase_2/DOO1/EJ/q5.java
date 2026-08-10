@@ -1,4 +1,4 @@
-package EJ;
+package Fase_2.DOO1.EJ;
 
 /*Faça um programa Java que calcula e imprime a área das seguintes figuras geométricas:
 quadrado, retângulo, círculo e triângulo.

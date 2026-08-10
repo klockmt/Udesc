@@ -1,4 +1,4 @@
-package idt03Lista1_Repetição;
+package Fase_1.IDT.idt03Lista1_Repetição;
 
 //Elabore um programa que, dado um valor inteiro positivo, calcule o fatorial deste número e escreva o resultado.
 

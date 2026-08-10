@@ -1,4 +1,4 @@
-package idt09Lista1_Matrizes;
+package Fase_1.IDT.idt09Lista1_Matrizes;
 
 /* 5. Elabore um programa que declare uma matriz de valores inteiros, cujas dimensões são 5 linhas e 5 colunas matriz[5x5]. 
 Este programa deverá fazer a troca dos elementos, modificando a matriz, onde linhas são transferidas para colunas e vice-versa (Transposta). */

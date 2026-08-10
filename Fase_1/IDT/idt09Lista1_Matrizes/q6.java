@@ -1,4 +1,4 @@
-package idt09Lista1_Matrizes;
+package Fase_1.IDT.idt09Lista1_Matrizes;
 
 /* 6. EXERCÍCIO CRIATIVO: "Detector de Gravidade Numérica e Caminho de Collatz"
 Elabore um programa que lê uma matriz[5x5]. Para cada número inserido, o programa simula a Conjectura de Collatz 

@@ -1,4 +1,4 @@
-package EJ;
+package Fase_2.DOO1.EJ;
 
 /*Faça um programa Java que lê uma matriz M(5,5) de inteiros, calcula e imprime as somas:
 

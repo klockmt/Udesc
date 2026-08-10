@@ -1,4 +1,4 @@
-package idt04Lista2_Repetição.While_only;
+package Fase_1.IDT.idt04Lista2_Repetição.While_only;
 
 /* Deseja-se fazer uma pesquisa a respeito do consumo mensal de energia elétrica em uma determinada cidade. 
 Para isso, são fornecidos os seguintes dados: preço do kWh consumido, número do consumidor, 
