@@ -1,3 +1,4 @@
+package Fase_1.IDT;
 import java.util.Scanner;
 
 public class template {
