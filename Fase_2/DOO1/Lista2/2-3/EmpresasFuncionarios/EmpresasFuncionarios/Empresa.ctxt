@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Empresa
+comment1.params=cnpj\ razaoSocial
+comment1.target=Empresa(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ imprimeFuncionarios()
+comment3.params=
+comment3.target=double\ getDespesasFolhasPagamento()
+comment4.params=fun
+comment4.target=void\ addFuncionario(Funcionario)
+comment5.params=
+comment5.target=java.util.ArrayList\ getFuncionarios()
+numComments=6
