@@ -1,0 +1,50 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+public class PessoaCasada {
+   private int anoNascimento;
+   private String nome;
+   private double peso;
+   private double altura;
+
+   public PessoaCasada(int anoNascimento) {
+      this.anoNascimento = anoNascimento;
+   }
+
+   public String getNome() {
+      return this.nome;
+   }
+
+   public boolean setNome(String nome) {
+      if (!nome.equals("")) {
+         this.nome = nome;
+         return true;
+      } else {
+         return false;
+      }
+   }
+
+   public double getPeso() {
+      return this.peso;
+   }
+
+   public boolean setPeso(double peso) {
+      if (peso > (double)0.0F) {
+         this.peso = peso;
+         return true;
+      } else {
+         return false;
+      }
+   }
+
+   public double getAltura() {
+      return this.altura;
+   }
+
+   public boolean setAltura(double altura) {
+      if (altura > (double)0.0F) {
+         this.altura = altura;
+         return true;
+      } else {
+         return false;
+      }
+   }
+}

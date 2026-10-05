@@ -40,7 +40,7 @@ public class Pessoa {
     }
 
     public boolean setAltura(double altura) {
-          if (altura > 0) {
+        if (altura > 0) {
             this.altura = altura;
             return true;
         } else {
